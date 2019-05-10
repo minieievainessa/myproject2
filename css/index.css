@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+:root {
+    color: black;
+    font-size: 18px;
+}
+
+header b i {
+    color: white;
+    text-shadow: 2px 2px 5px white;
+}
+
+
+body {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+table,
+th,
+td {
+
+    border: 2px solid red;
+}
+
+table {
+    width: 50%;
+    background-color: #f5fc23;
+}
+
+h1 span {
+    color: black;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+h1 {
+    text-shadow: 2px 2px 5px red;
+    font-family: 'Lobster', cursive;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+    border: 2px solid red;
+    margin: 0;
+    background-color: #f5fc23;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+    nav ul {
+        flex: 1;
+    }
+}
+
+header .banner {
+    background-image: url(../img/sky.jpg);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+article img {
+    width: 800px;
+    height: 532px;
+}
+
+.banner img {
+    width: 160px;
+    height: 90px;
+}
+
+.form-contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contacts h1 {
+    text-align: center;
+}
